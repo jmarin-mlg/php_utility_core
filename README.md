@@ -114,7 +114,7 @@ $utils->getUtil(1, 200, 'Operación exitosa');
 ```
 
 3. ¡Importante! Leer la documentación de las clases que esta disponible en
-[`README`](./doc/README) en el directorio `/doc` para conocer el funcionamiento
+[`README`](./doc/README.md) en el directorio `/doc` para conocer el funcionamiento
 de tales clases.
 
 4. Por último, ejecutar en la terminal el siguiente comando:
