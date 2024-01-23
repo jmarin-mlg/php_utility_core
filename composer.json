@@ -1,0 +1,33 @@
+{
+    "name": "jmarin/php-utility-core",
+    "description": "Centro de utilidades PHP",
+    "type": "library",
+    "license": "GPL",
+    "version": "3.0",
+    "minimum-stability": "alpha",
+    "authors": [
+      {
+        "name": "José Marín",
+        "email": "jose.marin.mlg@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "UtilityCore\\Controllers\\": "src/controllers/",
+        "UtilityCore\\Interfaces\\": "src/interfaces/",
+        "UtilityCore\\Middlewares\\": "src/middlewares/",
+        "UtilityCore\\Traits\\": "src/traits/",
+        "Vendor\\Namespace\\": ""
+      }
+    },
+    "require": {
+        "php": ">=7.3",
+        "illuminate/view": "^8.83.27",
+        "illuminate/routing": "^8.83.27",
+        "illuminate/database": "^8.83.27",
+        "illuminate/validation": "^8.83.27",
+        "phpmailer/phpmailer": "^6.8",
+        "predis/predis": "^2.2",
+        "symfony/yaml": "^5.4"
+    }
+  }
