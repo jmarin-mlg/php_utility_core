@@ -105,7 +105,7 @@ librería, insertar este código:
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
 
-use UtilityCore\Libraries\UtilityCore;
+use UtilityCore\Controllers\UtilityCore;
 
 $utils = new UtilityCore();
 
