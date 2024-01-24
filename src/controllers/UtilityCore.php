@@ -88,7 +88,7 @@ class UtilityCore implements UtilityCoreInterface
 
                 $this->container->bind(
                     'UtilityCore\Interfaces\ServerResponseInterface',
-                    'UtilityCore\Libraries\ServerResponse'
+                    'UtilityCore\Controllers\ServerResponse'
                 );
 
                 $response = $this->container->resolve(
