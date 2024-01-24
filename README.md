@@ -79,9 +79,7 @@ de otros contenedores para que compartan este servicio y puedan utilizarlo.
 
 ## Instrucciones para utilizar mediante composer
 
-Antes de nada, debemos asegurarnos de tener añadida nuestra SSH KEY en nuestra cuenta de gitlab.
-En el caso de que no accedamos mediante SSH sino clonando los repositorios mediante HTTPS deberemos cambiar la `url` de
-nuestro `composer.json` a la que utiliza el protocolo `https`.
+Pasos a seguir para utilizar de manera pública el repositorio de GitHub:
 
 1. Crear fichero `composer.json` en el directorio raíz de nuestro proyecto:
 
