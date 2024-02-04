@@ -157,7 +157,7 @@ phpcbf --extensions=php --ignore=*/vendor/*,*/cache/*,*/view/* --standard=PSR12 
 
 echo ""
 echo ""
-echo "${green}Opteniendo errores que no pueden corregirse automáticamente${clear_color}"
+echo "${green}Obteniendo errores que no pueden corregirse automáticamente${clear_color}"
 echo "${green}-----------------------------------------------------------${clear_color}"
 
 phpcs --extensions=php --ignore=*/vendor/*,*/cache/*,*/view/* --standard=PSR12 .
